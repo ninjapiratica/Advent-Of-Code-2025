@@ -5,8 +5,6 @@ var position = 50;
 var exactCount = 0;
 var crossCount = 0;
 
-/*5501 > 6047*/
-
 while (!sr.EndOfStream)
 {
     var line = await sr.ReadLineAsync();
