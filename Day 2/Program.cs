@@ -28,7 +28,7 @@ while (!sr.EndOfStream)
                     var test = long.Parse(string.Concat(Enumerable.Repeat(s1, repeats)));
                     if (test >= startVal && test <= endVal)
                     {
-                        if(invalidIds.TryGetValue(line, out var hash))
+                        if (invalidIds.TryGetValue(line, out var hash))
                         {
                             hash.Add(test);
                         }
@@ -36,7 +36,6 @@ while (!sr.EndOfStream)
                         {
                             invalidIds.Add(line, [test]);
                         }
-                        Console.WriteLine($"{start} - {test} - {end} - {numLength} - {repeats}");
                     }
                     else if (test > endVal)
                     {
