@@ -5,14 +5,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "Day 10",
+            "name": "Day 11",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Day 10/bin/Debug/net9.0/Day 10.dll",
+            "program": "${workspaceFolder}/Day 11/bin/Debug/net9.0/Day 11.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Day 10",
+            "cwd": "${workspaceFolder}/Day 11",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
